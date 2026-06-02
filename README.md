@@ -131,4 +131,50 @@ Face service
 ## Closing note
 IntelliHire is designed as a unified, evidence-driven recruitment workflow: AI augments screening and interviewing, while final hiring decisions remain human. The architecture is modular, the proctoring signals are auditable, and the platform is built to scale from a prototype into a production-grade system.
 
+## 👨‍💻 My Contributions (Muhammad Huzaifa)
+
+### 🤖 AI Interview Engine
+- Architected the complete AI interview orchestration system from 
+  scratch including adaptive questioning logic and interviewer 
+  persona design
+- Implemented clarification and correction turn handling for 
+  nuanced candidate responses
+- Built session management with retake prevention and interview 
+  cycle start date logic
+- Enforced time window rules and improved scoring logic for 
+  clarification requests
+- Removed confirmation dialogs for smoother interview UX
+
+### 📊 Resume Ranking (LLM Council)
+- Built the deterministic LLM council system for resume ranking
+- Implemented multi-agent scoring pipeline with conflict resolution
+- Added "Analyze Resume" button with deterministic scoring fixes
+
+### 💼 Job Management & Search
+- Implemented flexible keyword-based job search with advanced 
+  filtering and aggregation logic
+- Built job view tracking system
+- Developed application deadline validation and normalization
+
+### 📋 Employer Applications Dashboard
+- Built complete job applications dashboard with AI scoring 
+  display and candidate management
+- Implemented comprehensive application management with 
+  filtering and sorting
+- Developed re-interview request workflows
+- Built InterviewReportModal showing candidate performance 
+  and proctoring analytics
+
+### 🔒 Proctoring Frontend Integration
+- Implemented AI interview proctoring UI with Python backend 
+  integration for face and voice analysis
+- Improved frame quality assessment for liveness detection
+- Streamlined WebSocket audio handling and UI responsiveness
+- Added date parsing and cycle start date logic for 
+  proctoring sessions
+
+### 🎨 Frontend
+- Built EmployerHeader with Clerk profile image integration
+- Implemented screen restriction functionality during interviews
+
 
